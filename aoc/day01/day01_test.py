@@ -5,7 +5,7 @@ from aoc.day01 import day01
 
 class TestDay01(unittest.TestCase):
 
-    def test_parat1(self):
+    def test_part1(self):
         self.assertEqual(3, day01.part1([+1, -2, +3, +1]))
         self.assertEqual(3, day01.part1([+1, +1, +1]))
         self.assertEqual(0, day01.part1([+1, +1, -2]))

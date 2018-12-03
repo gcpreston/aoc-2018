@@ -2,8 +2,8 @@ def main():
     with open('input.txt') as file:
         nums = [int(n) for n in file.read().strip().split('\n') if n != '']
 
-    print(part1(nums))
-    print(part2(nums))
+    print('Part 1:', part1(nums))
+    print('Part 2:', part2(nums))
 
 
 def part1(nums):
