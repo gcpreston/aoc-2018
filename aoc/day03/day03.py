@@ -6,7 +6,7 @@ def main():
     with open('input.txt') as file:
         claims = []
         for line in file.readlines():
-            m = re.search(p, line.strip())
+            m = re.match(p, line.strip())
             claims.append((int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4)), int(m.group(5))))
 
     ans1, ans2 = solve(claims)
