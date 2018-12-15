@@ -11,11 +11,11 @@ def main():
     players = int(m.group(1))
     last = int(m.group(2))
 
-    print('Part 1:', part1(players, last))
-    print('Part 2:', part1(players, last * 100))
+    print('Part 1:', solve(players, last))
+    print('Part 2:', solve(players, last * 100))
 
 
-def part1(num_players: int, last_marble: int):
+def solve(num_players: int, last_marble: int):
     circle = deque([0])
     marble = 1
     player = 1
