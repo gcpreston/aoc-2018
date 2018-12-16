@@ -1,5 +1,5 @@
 import re
-from data.graphs import DirectedGraph
+from al60.data.graphs import DirectedGraph
 
 
 def main():

@@ -1,6 +1,6 @@
 import unittest
 
-from data.graphs import DirectedGraph
+from al60.data import DirectedGraph
 from aoc.day07 import day07
 
 
