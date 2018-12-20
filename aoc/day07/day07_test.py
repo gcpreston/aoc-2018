@@ -1,7 +1,7 @@
 import unittest
 
-from al60.data import DirectedGraph
-from aoc.day07 import day07
+from al60.data.graphs import DirectedGraph
+from . import day07
 
 
 class TestDay07(unittest.TestCase):

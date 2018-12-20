@@ -1,6 +1,6 @@
 import unittest
 
-from aoc.day09 import day09
+from . import day09
 
 
 class TestDay09(unittest.TestCase):
